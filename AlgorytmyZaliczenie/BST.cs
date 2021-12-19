@@ -11,7 +11,40 @@ namespace AlgorytmyZaliczenie
 		Node Root = null;
 		public void Add(int key)
 		{
-			//todo
+			if(this.Root == null)
+            {
+				this.Root = new Node(key, null, null, null);
+				return;
+            }
+			Node node = this.Root;
+			while(true)
+            {
+				if(key < node.Key)
+                {
+					if(node.Left == null)
+                    {
+						node.Left = new Node(key, node, null, null);
+						return;
+
+					}
+					else
+					{
+						node = node.Left;
+					}
+				}
+                else
+                {
+					if(node.Right == null)
+                    {
+						node.Right = new Node(key, node, null, null);
+						return;
+                    }
+                    else
+                    {
+						node = node.Right;
+                    }
+                }
+            }
 		}
 		public bool Contains(int key)
 		{
@@ -25,22 +58,22 @@ namespace AlgorytmyZaliczenie
 					node = node.Right;
 			return false;
 		}
-		class Node
+	}
+	internal class Node
+	{
+		public Node Parent = null, Left = null, Right = null;
+		public int Key;
+		public Node(int key, Node parent = null)
 		{
-			public Node
-				Parent = null,
-				Left = null,
-				Right = null;
-			public int
-				Key;
-			public Node(
-				int key,
-				Node parent = null
-			)
-			{
-				Key = key;
-				Parent = parent;
-			}
+			Key = key;
+			Parent = parent;
 		}
+		public Node(int key, Node parent, Node left, Node right)
+        {
+			this.Key = key;
+			this.Parent = parent;
+			this.Left = left;
+			this.Right = right;
+        }
 	}
 }

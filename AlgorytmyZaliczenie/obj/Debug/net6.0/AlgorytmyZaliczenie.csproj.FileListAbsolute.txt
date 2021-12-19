@@ -1,0 +1,15 @@
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\bin\Debug\net6.0\AlgorytmyZaliczenie.exe
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\bin\Debug\net6.0\AlgorytmyZaliczenie.deps.json
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\bin\Debug\net6.0\AlgorytmyZaliczenie.runtimeconfig.json
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\bin\Debug\net6.0\AlgorytmyZaliczenie.dll
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\bin\Debug\net6.0\ref\AlgorytmyZaliczenie.dll
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\bin\Debug\net6.0\AlgorytmyZaliczenie.pdb
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\obj\Debug\net6.0\AlgorytmyZaliczenie.csproj.AssemblyReference.cache
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\obj\Debug\net6.0\AlgorytmyZaliczenie.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\obj\Debug\net6.0\AlgorytmyZaliczenie.AssemblyInfoInputs.cache
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\obj\Debug\net6.0\AlgorytmyZaliczenie.AssemblyInfo.cs
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\obj\Debug\net6.0\AlgorytmyZaliczenie.csproj.CoreCompileInputs.cache
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\obj\Debug\net6.0\AlgorytmyZaliczenie.dll
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\obj\Debug\net6.0\ref\AlgorytmyZaliczenie.dll
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\obj\Debug\net6.0\AlgorytmyZaliczenie.pdb
+D:\C# - Studia\AlgorytmyZaliczenie\AlgorytmyZaliczenie\obj\Debug\net6.0\AlgorytmyZaliczenie.genruntimeconfig.cache

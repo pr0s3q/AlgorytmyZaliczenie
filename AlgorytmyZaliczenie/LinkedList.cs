@@ -1,25 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AlgorytmyZaliczenie
+﻿namespace AlgorytmyZaliczenie
 {
-	internal class LinkedList
+    internal class LinkedList
 	{
-		Node first = null;
+		Node_? first;
+		Node_? last;
+		public LinkedList()
+        {
+			first = null;
+			last = null;
+		}
 		public Object First
 		{
-			get { return first?.Data; }
+			get { return this.first?.Data; }
 		}
 		public void AddFirst(Object data)
 		{
-			first = new Node(data, first);
+			first = new Node_(data, first);
 		}
 		public Object RemoveFirst()
 		{
-			Node oldNode = first;
+			Node_ oldNode = first;
 			if (oldNode == null)
 				return null;
 			first = oldNode.Next;
@@ -27,17 +27,17 @@ namespace AlgorytmyZaliczenie
 		}
 		public void AddLast(Object data)
 		{
-			//todo
+			last = new Node_(data, last);
 		}
-		class Node
+	}
+	internal class Node_
+	{
+		public Object Data;
+		public Node_ Next;
+		public Node_(Object data, Node_ next)
 		{
-			public Object Data;
-			public Node Next;
-			public Node(Object data, Node next)
-			{
-				Data = data;
-				Next = next;
-			}
+			Data = data;
+			Next = next;
 		}
 	}
 }
